@@ -1,0 +1,65 @@
+/* Header Css */
+header{
+    text-align: center;
+    margin-bottom: 14px;
+    color:rgb(67, 177, 251) ;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* :Horizontal line CSS */
+hr{
+    width: 229px;
+    margin-bottom: 18px;
+}
+
+/* Input Field CSS */
+input{
+    margin: auto ;
+    border: 1px solid rgb(154, 153, 153);
+    border-radius: 2px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 4px 28px;
+    display: flex;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    border: 1.3px solid black;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+/* p CSS */
+p{
+    margin: 7px;
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+}
+
+/* Button Css */
+button{
+    margin: auto;
+    margin-bottom: 7px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(93, 189, 253);
+    padding: 6px 43px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
+button:hover,
+button:focus
+{
+    background-color: rgb(48, 160, 235);
+}

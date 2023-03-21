@@ -1,0 +1,87 @@
+
+body{
+    background-color: rgb(128, 200, 248); 
+    background: linear-gradient(rgb(25, 154, 239),rgb(158, 213, 249)); 
+    height: 433px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 160px  auto ;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgb(55, 171, 248);
+    border-radius: 3px;
+    width: 210px;
+    background: white;
+}
+
+#city{
+    border-bottom: 1.4px solid rgb(200, 195, 195);
+    padding: 10px 47px ;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 14px;
+    color:rgb(67, 177, 251) ;
+    font-weight: bold;
+    font-family:'font-family: 'Nunito', sans-serif';
+}
+
+
+
+/* Input Field*/
+input{
+    margin: auto ;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 2px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 4px 20px;
+    display: flex;
+    text-align: center;
+}
+
+input::placeholder{
+    color: rgb(196, 193, 193);
+}
+
+input:focus{
+    outline: none;
+    border: 1.3px solid black;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+
+/* ---or--- */
+#or{
+    font-size: 14px;
+    padding: 3px 3px;
+    color: rgb(196, 193, 193);
+}
+
+
+/* Get Device Location Button */
+button{
+    margin: auto;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(93, 189, 253);
+    padding: 6px 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
+button:hover,
+button:focus
+{
+    background-color: rgb(48, 160, 235);
+}
+
+

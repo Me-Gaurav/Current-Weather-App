@@ -1,0 +1,188 @@
+.container-weather{
+    display: flex;
+    flex-direction: column;
+    margin: 160px  auto ;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgb(55, 171, 248);
+    /* padding: 13px 10px; */
+    padding: 0px 0px;
+    border-radius: 3px;
+    width: 240px;
+    background: white;
+}
+header{
+     display: grid; 
+     width: 55%;
+    grid-template-columns: auto auto ; 
+    column-gap: 8px;
+    border-bottom: 1.4px solid rgb(217, 214, 214); 
+    padding: 10px 55px 10px 53px;
+    margin-bottom: auto 14px;
+    color:rgb(67, 177, 251) ; 
+}
+
+#heading{
+    position: relative;
+    bottom: 1px;
+    right: 53px;
+    justify-content: center;
+    width: 120px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'font-family: 'Nunito', sans-serif';
+}
+
+#back-button{ 
+    cursor: pointer;
+    position: relative;
+    right: 50px;
+    margin: auto;
+    width: 20px;
+    height: 17px;
+    padding-left: 4px;
+}
+
+
+#temp{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+#weather{
+    margin-top: auto;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.location-icon{
+    position: relative;
+    top: 2.4px;
+    width: 14px;
+    color: rgb(94, 95, 95);
+    height: 13px;  
+}
+
+#location{
+    margin-top: 7px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgb(35, 35, 35);
+    margin: 4px;
+}
+
+footer{
+    display: grid;
+    width: 100%;
+    border-top: 1.4px solid rgb(217, 214, 214);
+    margin-top: 13px;
+    grid-template-columns: auto auto;
+}
+
+/* Weather Details container */
+#weather-details-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+}
+
+#row1{
+    /* border-top: 1px solid black; */
+    height: 50px;
+    width: 35px;
+    margin-top: 5px;
+    margin-right: 2px;
+    color: rgb(55, 171, 248);
+    text-align: right;
+}
+#feels-like-icon{
+    height: 47px;
+}
+
+#row2{
+    /* border-top: 1px solid black; */
+    border-right: 1.4px solid rgb(217, 214, 214);
+    display: grid;
+    grid-template-rows: auto auto;
+    height: 55px;
+    text-align: left;
+    width: 78px;
+}
+#feels-like-temp{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+#feels-like-text{
+    position: relative;
+    margin-bottom: 12px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    color: rgb(84, 84, 84);
+}
+
+#row3{
+    /* border: 1px solid black; */
+    position: relative;
+    width: 35px;
+    color: rgb(55, 171, 248);
+    text-align: right;
+    height: 44px;
+    margin-top: 7px;
+    margin-right: 2px;
+}
+#humidity-icon{
+    height: 44px;
+    margin-right: 1px;
+}
+
+#row4{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 64px;
+    height: 40px;
+    margin-top: 6px;
+}
+#humidity-temp{
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+#humidity-text{
+    position: relative;
+    margin-bottom: 12px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    color: rgb(84, 84, 84);
+}
+
+
+
+
