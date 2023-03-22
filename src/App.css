@@ -1,8 +1,8 @@
 
 body{
-    background-color: rgb(128, 200, 248); 
-    background: linear-gradient(rgb(25, 154, 239),rgb(158, 213, 249)); 
-    height: 433px;
+    background-color: rgb(25, 154, 239); 
+     height: 433px; 
+    /* background-repeat: no-repeat; */
 }
 .container{
     display: flex;

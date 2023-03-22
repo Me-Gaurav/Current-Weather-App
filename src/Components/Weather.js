@@ -7,8 +7,6 @@ import { BsDropletHalf, BsThermometerSun } from "react-icons/bs";
 const Weather = (props) => {
   const { city, setCity, setShow, weather, icon, currentLocation } = props;
 
-  // console.log(city);
-
   //toggling the setShow value to false
   const handleBackClick = () => {
     setShow(false);
